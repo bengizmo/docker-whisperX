@@ -1,0 +1,115 @@
+# syntax=docker/dockerfile:1
+
+FROM nvidia/cuda:11.7.1-cudnn8-devel-ubuntu22.04 as python
+
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && \
+    apt-get upgrade -y && \
+    apt-get install -y --no-install-recommends \
+    python3.11 \
+    python3.11-dev \
+    python3.11-venv \
+    python3-pip \
+    git \
+    git-lfs \
+    wget \
+    curl \
+    ffmpeg \
+    build-essential \
+    libssl-dev \
+    zlib1g-dev \
+    libbz2-dev \
+    libreadline-dev \
+    libsqlite3-dev \
+    libncursesw5-dev \
+    xz-utils \
+    tk-dev \
+    libxml2-dev \
+    libxmlsec1-dev \
+    libffi-dev \
+    liblzma-dev \
+    libsndfile-dev && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+FROM python as prepare_base_amd64
+
+WORKDIR /tmp
+
+# Add NVIDIA repository for CUDA
+ADD https://developer.download.nvidia.com/compute/cuda/repos/debian12/x86_64/cuda-keyring_1.1-1_all.deb .
+RUN --mount=type=cache,id=apt-amd64,sharing=locked,target=/var/cache/apt \
+    --mount=type=cache,id=apt-amd64,sharing=locked,target=/var/lib/apt \
+    dpkg -i cuda-keyring_1.1-1_all.deb && \
+    apt-get update && \
+    apt-get install -y cuda-nvrtc-12-* cuda-cudart-12-* cuda-cupti-12-* && \
+    apt-get clean && \
+    rm -rf /var/cache/apt/archives/* /var/lib/apt/lists/*
+
+FROM prepare_base_amd64 as prepare_build_amd64
+
+WORKDIR /app
+
+# Copy uv from ghcr.io/astral-sh/uv:latest
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
+
+# Create venv and install dependencies
+RUN --mount=type=cache,id=uv-amd64,sharing=locked,target=/root/.cache/uv \
+    python3.11 -m venv /venv && \
+    /venv/bin/pip install --no-cache-dir -U pip setuptools wheel
+
+# Install PyTorch with CUDA 11.7 support
+RUN --mount=type=cache,id=uv-amd64,sharing=locked,target=/root/.cache/uv \
+    /venv/bin/pip install torch==2.0.1 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu117
+
+# Install PyAnnote and other dependencies
+RUN --mount=type=cache,id=uv-amd64,sharing=locked,target=/root/.cache/uv \
+    --mount=source=whisperX,target=whisperX \
+    /venv/bin/pip install pyannote.audio==3.1.0 && \
+    /venv/bin/pip install -e whisperX/
+
+FROM prepare_build_amd64 as build
+
+FROM python as no_model
+
+# Create non-root user
+RUN groupadd -g 1001 1001 && \
+    useradd -l -u 1001 -g 1001 -m -s /bin/sh -N 1001
+
+# Create directories
+RUN install -d -m 775 -o 1001 -g 0 /licenses && \
+    install -d -m 775 -o 1001 -g 0 /root && \
+    install -d -m 775 -o 1001 -g 0 /.cache
+
+# Copy ffmpeg and dumb-init
+COPY --from=ghcr.io/jim60105/static-ffmpeg-upx:7.1 /ffmpeg /usr/local/bin/
+COPY --from=ghcr.io/jim60105/static-ffmpeg-upx:7.1 /dumb-init /usr/local/bin/
+
+# Copy licenses
+COPY --chown=1001:0 --chmod=775 LICENSE /licenses/LICENSE
+COPY --chown=1001:0 --chmod=775 whisperX/LICENSE /licenses/whisperX.LICENSE
+
+# Copy venv
+COPY --chown=1001:0 --chmod=775 --from=build /venv /venv
+
+# Test installation
+RUN python3 -c 'import whisperx;' && \
+    whisperx -h
+
+WORKDIR /app
+
+# Set environment variables
+ENV HF_HOME=/tmp/cache/huggingface \
+    TORCH_HOME=/tmp/cache/torch \
+    TRANSFORMERS_CACHE=/tmp/cache/huggingface/transformers \
+    PYTHONWARNINGS="ignore::UserWarning" \
+    TORCH_WARN_ONCE=1 \
+    PYTORCH_DISABLE_VERSION_WARNING=1 \
+    CUDA_LAUNCH_BLOCKING=1 \
+    PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512
+
+# Switch to non-root user
+USER 1001
+
+ENTRYPOINT ["/usr/local/bin/dumb-init", "--", "/venv/bin/python3", "-m"]
+CMD ["whisperx"]

@@ -1,0 +1,31 @@
+diff --git a/Dockerfile b/Dockerfile
+index current..updated 100644
+--- a/Dockerfile
++++ b/Dockerfile
+@@ -60,12 +60,13 @@ RUN --mount=type=cache,id=uv-amd64,sharing=locked,target=/root/.cache/uv \
+ 
+ # Install PyTorch with CUDA support
+ RUN --mount=type=cache,id=uv-amd64,sharing=locked,target=/root/.cache/uv \
+-    /venv/bin/pip install torch==2.0.1 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu117
++    /venv/bin/pip install torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu126
+ 
+-# Install PyAnnote and other dependencies
++# Install dependencies in correct order
+ RUN --mount=type=cache,id=uv-amd64,sharing=locked,target=/root/.cache/uv \
+-    --mount=source=whisperX,target=whisperX \
+-    /venv/bin/pip install pyannote.audio==3.1.0 && \
++    /venv/bin/pip install numpy==2.0.2 && \
++    /venv/bin/pip install pyannote.audio==3.3.2 && \
++    --mount=source=whisperX,target=whisperX && \
+     /venv/bin/pip install -e whisperX/
+ 
+ # Update environment variables for CUDA compatibility
+@@ -102,7 +103,7 @@ ENV HF_HOME=/tmp/cache/huggingface \
+     TRANSFORMERS_CACHE=/tmp/cache/huggingface/transformers \
+     PYTHONWARNINGS="ignore::UserWarning" \
+     TORCH_WARN_ONCE=1 \
+-    PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512
++    PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512 \
++    PYTORCH_ENABLE_MPS_FALLBACK=1
+ 
+ USER 1001

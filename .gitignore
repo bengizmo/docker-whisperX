@@ -1,2 +1,32 @@
+# Environment variables
 *.env
-cache
+.env
+
+# Cache files/dirs
+cache/
+*.pyc
+__pycache__/
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# Roo specific
+.roomodes
+.roo/
+memory-bank/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Build artifacts (optional, add if needed)
+# build/
+# dist/
+
+# Log files (optional, add if needed)
+# *.log
+
+# Local virtual environments (optional, add if needed)
+venv/
+.venv/

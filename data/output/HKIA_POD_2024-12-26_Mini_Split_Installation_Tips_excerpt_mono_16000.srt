@@ -1,0 +1,488 @@
+1
+00:00:00,111 --> 00:00:02,100
+[SPEAKER_02]: into the industry, discussing all things HVAC.
+
+2
+00:00:03,078 --> 00:00:05,165
+[SPEAKER_02]: from storytelling to technical discussion.
+
+3
+00:00:05,707 --> 00:00:06,290
+[SPEAKER_02]: Enjoy the show.
+
+4
+00:00:11,310 --> 00:00:13,408
+[SPEAKER_02]: All right, Rachel, the first question I'm gonna ask you is
+
+5
+00:00:14,114 --> 00:00:16,630
+[SPEAKER_02]: How did you come up with the name Miss Mini Split?
+
+6
+00:00:16,750 --> 00:00:18,815
+[SPEAKER_01]: I was doing a lot of mini splits at the time.
+
+7
+00:00:18,835 --> 00:00:18,915
+[SPEAKER_01]: Yeah.
+
+8
+00:00:20,433 --> 00:00:21,590
+[SPEAKER_01]: And I was...
+
+9
+00:00:21,953 --> 00:00:23,900
+[SPEAKER_01]: I'm trying to think of an Instagram.
+
+10
+00:00:23,940 --> 00:00:24,803
+[SPEAKER_01]: I decided to make an Instagram.
+
+11
+00:00:25,980 --> 00:00:28,533
+[SPEAKER_01]: And I just happened to be doing many splits, and I was like, oh, that's
+
+12
+00:00:28,533 --> 00:00:29,179
+[SPEAKER_01]: That sounds catchy.
+
+13
+00:00:29,502 --> 00:00:30,350
+[SPEAKER_01]: That's what I came up with.
+
+14
+00:00:31,081 --> 00:00:33,643
+[SPEAKER_02]: So we're going to talk the audience that's listening right now.
+
+15
+00:00:33,723 --> 00:00:36,610
+[SPEAKER_02]: now we're going to talk about the installation of a mini split.
+
+16
+00:00:37,364 --> 00:00:39,118
+[SPEAKER_02]: and Rachel and I will go through it together.
+
+17
+00:00:39,720 --> 00:00:42,028
+[SPEAKER_02]: And if you guys are new to the trade newer to the trader
+
+18
+00:00:42,228 --> 00:00:45,070
+[SPEAKER_02]: or you're just looking for tips to make your installs go a little bit
+
+19
+00:00:45,130 --> 00:00:45,372
+[SPEAKER_02]: better.
+
+20
+00:00:45,896 --> 00:00:47,909
+[SPEAKER_02]: I'm sure the conversation will help with that.
+
+21
+00:00:48,682 --> 00:00:48,784
+[SPEAKER_02]: So...
+
+22
+00:00:49,430 --> 00:00:51,515
+[SPEAKER_02]: You got a car seat in the back of your work truck.
+
+23
+00:00:51,756 --> 00:00:52,505
+[SPEAKER_02]: explain so.
+
+24
+00:00:53,815 --> 00:00:54,969
+[SPEAKER_02]: Like obviously you have a
+
+25
+00:00:55,313 --> 00:00:57,907
+[SPEAKER_02]: a young child and you got to maybe drop off to
+
+26
+00:00:58,208 --> 00:00:59,276
+[SPEAKER_02]: daycare or something like that.
+
+27
+00:00:59,296 --> 00:00:59,759
+[SPEAKER_01]: Yeah, exactly.
+
+28
+00:00:59,779 --> 00:01:00,826
+[SPEAKER_02]: Once in a while on your way to work.
+
+29
+00:01:01,068 --> 00:01:02,660
+[SPEAKER_01]: Yes, that's exactly the routine.
+
+30
+00:01:04,317 --> 00:01:06,968
+[SPEAKER_02]: I've seen a post where you actually brought your kid to work.
+
+31
+00:01:07,256 --> 00:01:07,465
+[SPEAKER_00]: Yes.
+
+32
+00:01:08,131 --> 00:01:09,095
+[SPEAKER_02]: How did that all come about?
+
+33
+00:01:09,116 --> 00:01:10,542
+[SPEAKER_02]: Because that's interesting to me, right?
+
+34
+00:01:10,703 --> 00:01:12,256
+[SPEAKER_00]: Yeah, so I made
+
+35
+00:01:12,658 --> 00:01:14,963
+[SPEAKER_00]: my instagram miss minisplit in the summer of
+
+36
+00:01:15,023 --> 00:01:15,448
+[SPEAKER_00]: 2023 by that time I
+
+37
+00:01:17,028 --> 00:01:19,405
+[SPEAKER_00]: I've already been doing HVAC for like 10 years.
+
+38
+00:01:19,813 --> 00:01:21,251
+[SPEAKER_01]: All right, and before that, you know
+
+39
+00:01:21,452 --> 00:01:23,138
+[SPEAKER_01]: just been out here doing my things.
+
+40
+00:01:23,420 --> 00:01:24,716
+[SPEAKER_01]: not on social media.
+
+41
+00:01:25,526 --> 00:01:28,456
+[SPEAKER_01]: But I think I was pregnant or I had just had my baby.
+
+42
+00:01:28,577 --> 00:01:30,630
+[SPEAKER_01]: Yeah that's right I was pregnant with my second kid.
+
+43
+00:01:30,791 --> 00:01:32,746
+[SPEAKER_01]: by the time I made my Miss Mini Split Instagram.
+
+44
+00:01:33,582 --> 00:01:35,821
+[SPEAKER_01]: And so I was kind of like working part time.
+
+45
+00:01:36,694 --> 00:01:38,912
+[SPEAKER_01]: And the only reason why I was working part-time was
+
+46
+00:01:39,012 --> 00:01:41,467
+[SPEAKER_01]: because I had already been working full-
+
+47
+00:01:41,632 --> 00:01:41,984
+[SPEAKER_01]: time.
+
+48
+00:01:42,525 --> 00:01:44,357
+[SPEAKER_01]: for a bunch of general contractors.
+
+49
+00:01:44,538 --> 00:01:46,421
+[SPEAKER_01]: had all these customers and I told
+
+50
+00:01:46,502 --> 00:01:49,197
+[SPEAKER_01]: them and I tried to keep telling them, you know,
+
+51
+00:01:50,188 --> 00:01:52,804
+[SPEAKER_01]: I'm not working right now, and they would just
+
+52
+00:01:52,986 --> 00:01:53,474
+[SPEAKER_01]: Beg me.
+
+53
+00:01:54,014 --> 00:01:56,686
+[SPEAKER_01]: Say, please come, just bring your baby.
+
+54
+00:01:57,221 --> 00:01:59,604
+[SPEAKER_01]: You know, it'll be fine and I'm like, ah, I don't
+
+55
+00:01:59,624 --> 00:02:01,252
+[SPEAKER_01]: I really like doing that, but...
+
+56
+00:02:01,452 --> 00:02:03,137
+[SPEAKER_01]: you know, sometimes some customers.
+
+57
+00:02:03,708 --> 00:02:05,053
+[SPEAKER_01]: You just got to take care of them.
+
+58
+00:02:05,153 --> 00:02:06,317
+[SPEAKER_01]: So it got to the point.
+
+59
+00:02:06,458 --> 00:02:08,370
+[SPEAKER_01]: where I was like, fine, I'll just bring my kid.
+
+60
+00:02:09,009 --> 00:02:11,467
+[SPEAKER_01]: and I would bring my mom with me so she would kind of help.
+
+61
+00:02:11,711 --> 00:02:12,570
+[SPEAKER_01]: watch my kid.
+
+62
+00:02:13,306 --> 00:02:15,426
+[SPEAKER_01]: Sometimes it was as young as three months old.
+
+63
+00:02:15,728 --> 00:02:18,457
+[SPEAKER_01]: So she would be there watching the kid while I work and I would take a break.
+
+64
+00:02:18,498 --> 00:02:18,843
+[SPEAKER_01]: break.
+
+65
+00:02:19,644 --> 00:02:22,270
+[SPEAKER_01]: you know, take care of my kid, you know, change her diaper.
+
+66
+00:02:23,033 --> 00:02:25,025
+[SPEAKER_01]: or feed her and that sort of thing.
+
+67
+00:02:25,995 --> 00:02:26,381
+[SPEAKER_02]: Interesting.
+
+68
+00:02:27,170 --> 00:02:29,831
+[SPEAKER_02]: The struggles of being a mom sometimes, huh?
+
+69
+00:02:31,336 --> 00:02:33,481
+[SPEAKER_02]: I shouldn't say I get it because I'm not a mom, but I
+
+70
+00:02:33,982 --> 00:02:35,847
+[SPEAKER_02]: I got three kids of my own so I get
+
+71
+00:02:36,169 --> 00:02:37,181
+[SPEAKER_00]: Yeah, yeah, then the whole
+
+72
+00:02:38,137 --> 00:02:40,607
+[SPEAKER_02]: Yeah, I get the whole family dynamic and having to
+
+73
+00:02:41,109 --> 00:02:43,979
+[SPEAKER_02]: balance your life and struggle and make sure that your kids
+
+74
+00:02:44,039 --> 00:02:45,774
+[SPEAKER_02]: come first, but you also got to
+
+75
+00:02:46,209 --> 00:02:47,424
+[SPEAKER_02]: work and maintain a living.
+
+76
+00:02:47,787 --> 00:02:49,734
+[SPEAKER_02]: and to bring in that income so you can buy food and
+
+77
+00:02:50,337 --> 00:02:52,973
+[SPEAKER_02]: like a home and a bed for yourself and your kids and stuff.
+
+78
+00:02:53,073 --> 00:02:53,275
+[SPEAKER_02]: too.
+
+79
+00:02:53,315 --> 00:02:55,430
+[SPEAKER_02]: So I commend the fact that you worked
+
+80
+00:02:55,741 --> 00:02:57,039
+[SPEAKER_02]: that hard to make it work.
+
+81
+00:02:58,200 --> 00:02:58,685
+[SPEAKER_02]: Pretty cool.
+
+82
+00:02:58,967 --> 00:02:59,977
+[SPEAKER_02]: Now, where are you located?
+
+83
+00:03:00,178 --> 00:03:01,349
+[SPEAKER_02]: You're located in California, right?
+
+84
+00:03:01,470 --> 00:03:02,258
+[SPEAKER_00]: Yes, San Diego.
+
+85
+00:03:02,481 --> 00:03:03,438
+[SPEAKER_02]: San Diego, okay.
+
+86
+00:03:04,374 --> 00:03:07,023
+[SPEAKER_02]: So when it comes to, you're doing a lot of mini splits.
+
+87
+00:03:07,145 --> 00:03:07,818
+[SPEAKER_02]: So is that?
+
+88
+00:03:08,598 --> 00:03:10,387
+[SPEAKER_02]: side of the industry taken off a lot in
+
+89
+00:03:10,927 --> 00:03:13,125
+[SPEAKER_02]: California and San Diego like the mini split.
+
+90
+00:03:13,452 --> 00:03:14,001
+[SPEAKER_02]: side of things?
+
+91
+00:03:15,358 --> 00:03:16,609
+[SPEAKER_01]: And the reason for that is...
+
+92
+00:03:17,275 --> 00:03:19,805
+[SPEAKER_01]: because of the housing crisis out here.
+
+93
+00:03:20,431 --> 00:03:22,502
+[SPEAKER_01]: And because of the housing crisis, there's a huge
+
+94
+00:03:22,643 --> 00:03:24,185
+[SPEAKER_01]: push for affordable housing.
+
+95
+00:03:24,677 --> 00:03:27,158
+[SPEAKER_01]: Well, if you want affordable housing, you have to build
+
+96
+00:03:27,863 --> 00:03:29,457
+[SPEAKER_01]: it affordably to begin with.
+
+97
+00:03:29,738 --> 00:03:32,465
+[SPEAKER_01]: or else you can't rent it out for an affordable price.
+
+98
+00:03:33,330 --> 00:03:35,776
+[SPEAKER_01]: And so part of that is finding affordable trades.
+
+99
+00:03:36,378 --> 00:03:38,168
+[SPEAKER_01]: of affordable HVAC systems.
+
+100
+00:03:38,489 --> 00:03:41,176
+[SPEAKER_01]: and so there is a huge demand for Mini Split.
+
+101
+00:03:41,397 --> 00:03:42,904
+[SPEAKER_01]: systems right now out here.
+
+102
+00:03:43,158 --> 00:03:46,085
+[SPEAKER_02]: Yeah, well, it makes sense because if you think about a centralized
+
+103
+00:03:46,166 --> 00:03:46,470
+[SPEAKER_02]: system.
+
+104
+00:03:47,104 --> 00:03:48,411
+[SPEAKER_02]: going into a unit or...
+
+105
+00:03:49,611 --> 00:03:51,198
+[SPEAKER_02]: whatever it is that how they're
+
+106
+00:03:51,339 --> 00:03:52,849
+[SPEAKER_02]: they're building or dividing the spaces.
+
+107
+00:03:53,618 --> 00:03:55,952
+[SPEAKER_02]: duck work and all that, then you got to frame around it.
+
+108
+00:03:56,434 --> 00:03:56,977
+[SPEAKER_02]: You know what I mean?
+
+109
+00:03:57,258 --> 00:03:58,465
+[SPEAKER_02]: That costs a lot of money.
+
+110
+00:03:58,626 --> 00:04:00,221
+[SPEAKER_02]: I was just speaking to somebody that wants.
+
+111
+00:04:00,995 --> 00:04:01,762
+[SPEAKER_02]: that got a 1400 square foot home.
+
+112
+00:04:03,405 --> 00:04:04,130
+[SPEAKER_02]: that they're building and
+
+113
+00:04:06,148 --> 00:04:08,737
+[SPEAKER_02]: the quotes to get duck work and a furnace and all that in.
+
+114
+00:04:09,419 --> 00:04:10,562
+[SPEAKER_02]: is upwards of $20,000 or more.
+
+115
+00:04:12,431 --> 00:04:13,000
+[SPEAKER_02]: Yeah, no
+
+116
+00:04:13,601 --> 00:04:16,319
+[SPEAKER_02]: you could throw in a mini-split for way less than that.
+
+117
+00:04:16,901 --> 00:04:17,284
+[SPEAKER_01]: Exactly.
+
+118
+00:04:17,999 --> 00:04:20,346
+[SPEAKER_02]: So it makes sense what you're saying, so it's a lot more.
+
+119
+00:04:20,790 --> 00:04:21,783
+[SPEAKER_02]: affordable to the
+
+120
+00:04:22,511 --> 00:04:24,608
+[SPEAKER_02]: I guess the general contractor that's putting it in.
+
+121
+00:04:25,453 --> 00:04:27,750
+[SPEAKER_02]: And the thing with a mini-split these days
+
+122
+00:04:27,911 --> 00:04:30,450
+[SPEAKER_02]: is they're very reliable like the technology behind
+
